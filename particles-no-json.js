@@ -1527,10 +1527,10 @@ window.particlesJS.load = function(tag_id){
         var params = {
             "particles": {
                 "number": {
-                    "value": 175,
+                    "value": 225,
                     "density": {
                         "enable": true,
-                        "value_area": 1100
+                        "value_area": 1000
                     }
                 },
                 "color": {
@@ -1552,7 +1552,7 @@ window.particlesJS.load = function(tag_id){
                     }
                 },
                 "opacity": {
-                    "value": 0.75,
+                    "value": 0.85,
                     "random": true,
                     "anim": {
                         "enable": true,
@@ -1580,11 +1580,11 @@ window.particlesJS.load = function(tag_id){
                 },
                 "move": {
                     "enable": true,
-                    "speed": 0.5,
-                    "direction": "bottom",
+                    "speed": 4.25,
+                    "direction": "none",
                     "random": true,
                     "straight": false,
-                    "out_mode": "out",
+                    "out_mode": "bounce",
                     "bounce": false,
                     "attract": {
                         "enable": false,
