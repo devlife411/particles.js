@@ -1580,7 +1580,7 @@ window.particlesJS.load = function(tag_id){
                 },
                 "move": {
                     "enable": true,
-                    "speed": 4.25,
+                    "speed": 2,
                     "direction": "none",
                     "random": true,
                     "straight": false,
