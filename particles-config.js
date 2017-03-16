@@ -1,4 +1,4 @@
-{
+var particleConfig = {
   "particles": {
     "number": {
       "value": 175,
@@ -107,4 +107,4 @@
     }
   },
   "retina_detect": true
-}
+};
