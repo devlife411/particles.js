@@ -1537,10 +1537,10 @@ window.particlesJS.load = function(tag_id){
                     "value": "#58b7dd"
                 },
                 "shape": {
-                    "type": "triangle",
+                    "type": "circle",
                     "stroke": {
-                        "width": 0,
-                        "color": "#000000"
+                        "width": .5,
+                        "color": "#ffffff"
                     },
                     "polygon": {
                         "nb_sides": 4
@@ -1615,13 +1615,13 @@ window.particlesJS.load = function(tag_id){
                     },
                     "bubble": {
                         "distance": 200,
-                        "size": 6,
+                        "size": 8,
                         "duration": 2,
                         "opacity": 0.8,
                         "speed": 3
                     },
                     "repulse": {
-                        "distance": 400,
+                        "distance": 150,
                         "duration": 0.4
                     },
                     "push": {
